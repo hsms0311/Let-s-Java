@@ -1,0 +1,80 @@
+import java.sql.SQLException;
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		MemberDAO mDAO = new MemberDAO();
+		BookDAO bDAO = new BookDAO();
+		RentalDAO rDAO = new RentalDAO();
+		
+		while(true) {
+			System.out.println("1. 회원 등록");
+			System.out.println("2. 책 등록");
+			System.out.println("3. 책 대여");
+			System.out.println("4. 책 반납");
+			System.out.println("5. 종료");
+			System.out.println();
+			System.out.println("선택 : ");
+			
+			int choice = sc.nextInt();
+			sc.nextLine();
+			
+			try {
+				switch(choice) {
+				case 1 :
+					System.out.print("회원 아이디 : ");
+					String id = sc.nextLine();
+					System.out.print("회원 비밀번호 : ");
+					String password = sc.nextLine();
+					System.out.print("회원 이름 : ");
+					String name = sc.nextLine();
+					mDAO.addMember(id, password, name);
+					System.out.println("회원 등록 완료.");
+					break;
+				
+				case 2 :
+					System.out.print("책 번호 : ");
+					int bookNum = sc.nextInt();
+					sc.nextLine();
+					System.out.print("책 제목 : ");
+					String title = sc.nextLine();
+					System.out.print("책 저자 : ");
+					String writer = sc.nextLine();
+					bDAO.addBook(bookNum, title, writer);
+					System.out.println("책 등록 완료.");
+					break;
+					
+				case 3 :
+					System.out.print("대여 번호 : ");
+					int rentalNum = sc.nextInt();
+					sc.nextLine();
+					System.out.print("회원 아이디 : ");
+					String id =sc.nextLine();
+					
+				case 4 : 
+					System.out.print("대여 번호 : ");
+					int rentalNum = sc.nextInt();
+					rDAO.returnBook(rentalNum);
+					System.out.println("책 반납 완료.");
+					break;
+					
+				case 5 : 
+					System.out.print("프로그램 종료.");
+					sc.close();
+					return;
+					
+				default : 
+					System.out.println("입력 오류.");
+				}
+			}
+			catch(SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

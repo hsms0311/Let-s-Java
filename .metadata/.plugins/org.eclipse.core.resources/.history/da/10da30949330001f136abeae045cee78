@@ -1,0 +1,28 @@
+
+public class QuValidateId
+{
+
+	public static void main(String[] args)
+	{
+		boolean idValidate(String inputId)
+		(idChar>='a' && idChar<='z')
+		
+		
+		for()
+		{
+			if()
+			{
+				
+			}
+			else()
+			{
+				
+			}
+		}
+		
+		System.out.println("아이디를 입력하세요 : ");
+		
+		System.out.println("아이디를 입력하세요 : ");
+	}
+
+}

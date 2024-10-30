@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class QuFillArray
+{
+
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		
+		int[] firstArray = new int[10];
+		System.out.println("정수 10개를 입력 : ");
+	}
+
+}

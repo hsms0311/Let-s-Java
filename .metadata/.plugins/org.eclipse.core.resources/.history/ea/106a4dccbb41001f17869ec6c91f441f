@@ -1,0 +1,17 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBAssist
+{
+	public static Connection getConnection() {
+		try {
+			String dbURL = "jdbc:oracl:thin:@localhost:1521:xe";
+			String dbUSER = "LibraryDB";
+			String dbPASSWORD = "1234";
+			
+			return DriverManager.getConnection(dbURL, dbUSER, dbPASSWORD);
+			
+		}
+	}
+}

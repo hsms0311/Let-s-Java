@@ -1,0 +1,19 @@
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class MemberDAO
+{
+	public void addMember(String id, String password, String name) throws SQLException{
+		String sql = "INERT INTO members(id, password, name) VALUES(?, ?, ?)";
+		
+		try(Connection conn = DBAssist.getConnection();
+			PreparedStatement stmt = conn.prepareStatement(sql)){
+			stmt.setString(1, title);
+			stmt.setString(2, writer);
+			stmt.executeUpdate();
+		}
+	}
+	
+	// 추가 메서드...
+}

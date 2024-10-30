@@ -1,0 +1,26 @@
+
+public class QuValidateId
+{
+
+	public static void main(String[] args)
+	{
+//		boolean idValidate(String inputId)
+		String str = "kosmo123";
+		
+		for(int i=0; i<str.length(); i++)
+		{
+//			(idChar>='a' && idChar<='z')
+			char ch = str.charAt(i);
+			if(idChar>='a' && idChar<='z')
+				break;
+			System.out.println(ch);
+		}
+		
+		System.out.println("아이디를 입력하세요 : " +  +
+				"사용할 수 있는 아이디입니다");
+		
+		System.out.println("아이디를 입력하세요 : " + + 
+				"사용할 수 없습니다");
+	}
+
+}

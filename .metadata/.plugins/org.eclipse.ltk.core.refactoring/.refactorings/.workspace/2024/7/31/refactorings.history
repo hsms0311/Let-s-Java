@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;LibraryRentalSystem/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar&apos;" deleteContents="false" description="Delete resource &apos;LibraryRentalSystem/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar&apos;" element1="/LibraryRentalSystem/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1722151382967"/>
+</session>

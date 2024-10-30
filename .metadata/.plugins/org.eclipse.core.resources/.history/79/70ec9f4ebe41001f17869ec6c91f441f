@@ -1,0 +1,28 @@
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class MemberDAO
+{
+	private Connection getConnection() throws SQLException {
+        String url = "jdbc:oracle:thin:@localhost:1521:xe"; // 이 부분을 적절하게 수정
+        String user = "your_username"; // DB 사용자명
+        String password = "your_password"; // DB 비밀번호
+
+        return DriverManager.getConnection(url, user, password);
+    }
+	
+	public void addMember(String id, String password, String name) throws SQLException{
+		String sql = "INSERT INTO members(id, password, name) VALUES(?, ?, ?)";
+		
+		try(Connection conn = DBAssist.getConnection();
+			PreparedStatement pstmt = conn.prepareStatement(sql)){
+			pstmt.setString(1, id);
+			pstmt.setString(2, password);
+			pstmt.setString(3, name);
+			pstmt.executeUpdate();
+		}
+	}
+	
+	// 추가 메서드... (조회, 삭제...)
+}

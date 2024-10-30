@@ -1,0 +1,33 @@
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class RentalDAO
+{
+	public void insertRental(Rental rental) throws SQLException{
+		String sql ="INSERT INTO reltals(rentalnum, memberId, bookNum) VALUES(?, ?, ?)";
+		
+		try(Connection conn = DBAssist.getConnection();
+			PreparedStatement stmt = conn.prepareStatement(sql)){
+			stmt.setInt(1, bookNum);
+			stmt.setInt(2, memberNum);
+			stmt.setDate(3, new Date(System.currentTimeMillis()));
+			stmt.executeUpdate();
+		}
+				
+	}
+	
+	public void returnBook(int rentalNum) throws SQLException{
+		String sql = "UPDATE rentals SET is_returned = 1, return_date = ?, WHERE rental_num = ?";
+		
+		try(Connection conn = DBAssist.getConnection();
+			PreparedStatement stmt = conn.prepareStatement(sql)){
+			stmt.setDate(1, new Date(System.currentTimeMillis()));
+			stmt.setInt(2, rentalNum);
+			stmt.executeUpdate();
+		}
+	}
+	
+	// 추가 메서드... (조회, 삭제...)
+}

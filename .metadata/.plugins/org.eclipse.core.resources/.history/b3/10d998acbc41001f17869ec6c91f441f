@@ -1,0 +1,13 @@
+
+public class Rental
+{
+	private String memberId;
+	private int bookNum;
+	private int rentalNum;
+	
+	public Rental(String memberId, int bookNum, int rentalNum) {
+		this.memberId = memberId;
+		this.bookNum = bookNum;
+		this.rentalNum = rentalNum
+	}
+}

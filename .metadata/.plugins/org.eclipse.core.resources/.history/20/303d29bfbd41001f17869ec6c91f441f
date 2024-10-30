@@ -1,0 +1,32 @@
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class RentalDAO
+{
+	public void insertRental(Rental rental) throws SQLException{
+		String sql ="INSERT INTO reltals(rentalnum, memberId, bookNum) VALUES(?, ?, ?)";
+		
+		try(Connection conn = DBAssist.getConnection();
+			PreparedStatement pstmt = conn.prepareStatement(sql)){
+			pstmt.setInt(1, rental.getRentalNum());
+			pstmt.setInt(2, rental.getMemberId());
+			pstmt.setDate(3, rental.getBookNum());
+			pstmt.executeUpdate();
+		}
+				
+	}
+	
+	public void deleteRental(int rentalNum) throws SQLException{
+		String sql = "DELETE FROM rentals WHERE rentalnum = ?";
+		
+		try(Connection conn = DBAssist.getConnection();
+			PreparedStatement pstmt = conn.prepareStatement(sql)){
+			pstmt.setInt(1, rentalNum);
+			pstmt.executeUpdate();
+		}
+	}
+	
+	// 추가 메서드... (조회, 삭제...)
+}

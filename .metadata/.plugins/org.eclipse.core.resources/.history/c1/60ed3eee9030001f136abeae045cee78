@@ -1,0 +1,95 @@
+
+public class QuUpgradeGuGu
+{
+
+	public static void main(String[] args)
+	{
+		/*
+		퀴즈1] 구구단을 출력하는 프로그램을 for문으로 작성하시오.
+		 */	
+		System.out.println("행방향의 구구단 출력하기");
+		
+		// 단에 해당하는 for문(2~9단까지 증가한다.)
+		for (int dan = 2; dan <= 9; dan++)
+		{
+			for (int su = 1; su <= 9; su++)
+			{
+				System.out.printf("%2d*%2d=%2d ", dan, su, (dan*su));
+			}
+			System.out.println(); // 줄바꿈
+		}
+		System.out.println();
+		
+		/*
+		퀴즈1-2] 위 문제는 2단부터 9단까지 행으로 출력하는 형태이다.
+			이번에는 열로 출력하는 형태로 변경해 보세요.
+		 */	
+		
+		System.out.println("열방향의 구구단 출력하기");
+		
+		// 단에 해당하는 for문(2~9단까지 증가한다.)
+		for (int su = 1; su <= 9; su++)
+		{
+			for (int dan = 2; dan <= 9; dan++)
+			{
+				System.out.printf("%2d*%2d=%2d ", dan, su, (dan*su));
+			}
+			System.out.println(); // 줄바꿈
+		}
+		System.out.println();
+		
+		/*
+		퀴즈2] 다음의 출력결과를 보이는 for문을 작성하시오.
+			출력결과
+				0  0  0  1
+				0  0  1  0
+				0  1  0  0
+				1  0  0  0
+			해법 : x와 y를 더해서 5가 돨때 1을 출력한다. 
+		 */	
+		// x는 행에 해당한다.
+		for (int x = 1; x <= 4; x++)
+		{
+			// y는 열에 해당한다.
+			for (int y = 1; y <= 4; y++)
+			{
+				// 두개의 변수를 더해서 5가 될때만 1을 출력한다.
+				if (x+y == 5)
+				{
+					System.out.print("1  ");
+				} else
+				{
+					System.out.print("0  ");
+				}
+			}
+			// 하나의 행을 출력한 후 줄바꿈 처리한다.
+			System.out.println();
+		}
+		System.out.println();
+		/*
+		퀴즈2] 다음의 출력결과를 보이는 for문을 작성하시오.
+		출력결과
+			1  0  0  0
+			0  1  0  0
+			0  0  1  0
+			0  0  0  1
+		*/
+		
+		for (int x = 1; x <= 4; x++)
+		{
+			for (int y = 1; y <= 4; y++)
+			{
+				if (x == y)
+				{
+					System.out.print("1  ");
+				} else
+				{
+					System.out.print("0  ");
+				}
+			}
+			System.out.println();
+		}
+
+	}
+
+}

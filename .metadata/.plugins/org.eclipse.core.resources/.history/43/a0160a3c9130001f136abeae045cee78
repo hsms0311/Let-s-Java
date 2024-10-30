@@ -1,0 +1,42 @@
+
+public class QuUpgradeGuGu
+{
+
+	public static void main(String[] args)
+	{
+		/*
+		퀴즈1] 구구단을 출력하는 프로그램을 for문으로 작성하시오.
+		 */	
+		System.out.println("행방향의 구구단 출력하기");
+		
+		// 단에 해당하는 for문(2~9단까지 증가한다.)
+		for (int dan = 2; dan <= 9; dan++)
+		{
+			for (int su = 1; su <= dan; su++)
+			{
+				System.out.println("%2d*%2d=%2d ", dan, su, (dan*su));
+			}
+			System.out.println(); // 줄바꿈
+		}
+		System.out.println();
+		
+		/*
+		퀴즈1-2] 위 문제는 2단부터 9단까지 행으로 출력하는 형태이다.
+			이번에는 열로 출력하는 형태로 변경해 보세요.
+		 */	
+		
+		System.out.println("열방향의 구구단 출력하기");
+		
+		// 단에 해당하는 for문(2~9단까지 증가한다.)
+		for (int su = 1; su <= 9; su++)
+		{
+			for (int dan = 2; dan <= 9; dan++)
+			{
+				System.out.printf("%2d*%2d=%2d ", dan, su, (dan*su));
+			}
+			System.out.println(); // 줄바꿈
+		}
+		System.out.println();
+	}
+
+}

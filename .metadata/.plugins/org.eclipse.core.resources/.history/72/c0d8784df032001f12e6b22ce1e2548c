@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class QuFillArray
+{
+
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		
+		int[] firstArray = new int[10];
+		System.out.println("정수 10개를 입력 : ");
+		for(int i=0; i<10; i++)
+		{
+			System.out.print((i + 1) + "번째 정수를 입력하세요 : ");
+			firstArray[i] = scanner.nextInt();
+		}
+		
+		System.out.println("순서대로 입력된 결과");
+		for(int i=0; i<10; i++)
+		{
+			System.out.print(firstArray[i] + " ");
+		}
+		
+		System.out.println();
+		
+		// 홀수 : odd number / 짝수 : even number
+		int[] secondArray = new int[10];
+		
+	}
+
+}

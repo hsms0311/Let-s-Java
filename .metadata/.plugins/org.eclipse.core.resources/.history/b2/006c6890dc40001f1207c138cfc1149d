@@ -1,0 +1,5 @@
+
+public class DBHelper
+{
+	private static final String URL = "jdbc:oracl:thin:@localhost:1521:xe";
+}

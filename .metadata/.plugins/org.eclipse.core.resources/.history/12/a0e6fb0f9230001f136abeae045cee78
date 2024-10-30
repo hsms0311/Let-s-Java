@@ -1,0 +1,18 @@
+
+public class QuUpgradeGuGu
+{
+
+	public static void main(String[] args)
+	{
+		for (int dan = 2; dan <= 9; dan++)
+		{
+			for (int su = 1; su != (dan+1); su++)
+			{
+				System.out.printf("%2d*%2d=%2d ", dan, su, (dan*su));
+			}
+			System.out.println(); // 줄바꿈
+		}
+		System.out.println();
+	}
+
+}

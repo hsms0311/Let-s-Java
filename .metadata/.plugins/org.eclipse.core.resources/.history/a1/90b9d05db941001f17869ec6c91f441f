@@ -1,0 +1,20 @@
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class BookDAO
+{
+	public void addBook(int bookNum, String title, String writer) throws SQLException{
+		String sql = "INSERT INTO books(bookNum, title, writer) VALUES(?, ?, ?)";
+		
+		try(Connection conn = DBAssist.getConnection();
+			PreparedStatement psmt = conn.prepareStatement(sql)){
+			psmt.setInt(1, bookNum);
+			psmt.setString(2, title);
+			psmt.setString(3, writer);
+			psmt.executeUpdate();
+		}
+	}
+	
+	// 추가 메서드... (조회, 삭제...)
+}

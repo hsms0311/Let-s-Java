@@ -1,0 +1,8 @@
+
+public class Rental
+{
+	private String memberId;
+	private int bookNum;
+	private int rentalNum;
+	
+}

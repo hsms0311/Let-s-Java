@@ -1,0 +1,49 @@
+
+public class QuUpgradeGuGu
+{
+
+	public static void main(String[] args)
+	{
+		for(int dan=2; dan<=9; dan++)
+		{
+			long result = dan;
+			System.out.println(dan + " x 1 = " + dan);
+			result = dan;
+			
+			for(int su=2; su<=9; su++)
+			{
+				result *= dan;
+				System.out.print(dan + " x ");
+				
+				for(int ex=1; ex<=su; ex++)
+				{
+					System.out.print(dan + " x ");
+				}
+				
+				System.out.println(dan + " = " + result);
+			}
+			
+			System.out.println();
+		}
+	}
+
+}
+
+//		for (int dan = 2; dan <= 9; dan++)
+//		{
+//			for (int su = 1; su != dan; su++)
+//			{
+//				System.out.printf("%2d*%2d=%2d ", dan, su, (dan*su));
+//			}
+//			System.out.println(); // 줄바꿈
+//		}
+//		System.out.println();
+//		
+//		
+//		for (int su = 1; su <= 9; su++)
+//		{
+//			for (int dan = 2; dan <= 9; dan++)
+//			{
+//				System.out.printf("%2d*%2d=%2d ", dan, su, (dan*su));
+//			}
+//			System.out.println(); // 줄바꿈

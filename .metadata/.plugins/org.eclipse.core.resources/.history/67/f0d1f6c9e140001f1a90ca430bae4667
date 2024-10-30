@@ -1,0 +1,8 @@
+import java.sql.SQLException;
+
+public class RentalDAO
+{
+	public void rentalBook(int bookNum, int memberNum) throws SQLException{
+		String sql ="INSERT INTO reltals(book_num, member_num, rental_date) VALUES(?, ?, ?)";
+	}
+}

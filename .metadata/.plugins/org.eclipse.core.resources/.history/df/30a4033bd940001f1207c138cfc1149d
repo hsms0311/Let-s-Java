@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		MemberDAO mDAO = new MemberDAO();
+		BookDAO bDAO = new BookDAO();
+		RentalDAO rDAO = new RentalDAO();
+		
+		while(true) {
+			System.out.println("1. 회원 등록");
+			System.out.println("2. 책 등록");
+			System.out.println("3. 책 대여");
+			System.out.println("4. 책 반납");
+			System.out.println("5. 종료");
+			System.out.println("선택 : ");
+			
+			int choice = sc.nextInt();
+			sc.nextLine();
+			
+			try {
+				switch(choice) {
+				case1 :
+					System.out.print("회원 아이디 : ");
+					String id = sc.nextLine();
+					System.out.print("회원 비밀번호 : ");
+					String password = sc.nextLine();
+					System.out.print("회원 이름 : ");
+					String name = sc.nextLine();
+					System.out.println("회원 등록 완료.");
+				}
+			}
+		}
+	}
+
+}

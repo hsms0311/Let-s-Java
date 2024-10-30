@@ -1,0 +1,19 @@
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class RentalDAO
+{
+	public void rentalBook(int bookNum, int memberNum) throws SQLException{
+		String sql ="INSERT INTO reltals(book_num, member_num, rental_date) VALUES(?, ?, ?)";
+		
+		try(Connection conn = DBAssist.getConnection();
+			PreparedStatement stmt = conn.prepareStatement(sql)){
+			stmt.setInt(1, bookNum);
+			stmt.setInt(2, memberNum);
+			stmt.setDate(3, new Date(System.currentTimeMillis()));
+		}
+				
+	}
+}
