@@ -1,0 +1,26 @@
+package chapter04;
+
+public class zPractice {}
+
+// 01. 다음 연산자들의 의미를 설명하시오.
+// a) +=
+// b) -=
+// c) %=
+
+
+// 02. 다음 코드의 실행 결과를 작성하시오.
+// public static void main(String[] args) {
+// 		int var = 7 - 1 * 20 / 5;
+//		System.out.println(var)
+// }
+//
+// 정답 : ((-1 * 20) / 5) + 7 = 3
+
+
+// 03. 한 방에 27명인 학급이 있다. 미술 수업을 위해 색연필을 5다스를 받았다면,
+//	각 학생에게 나누어 줄 수 있는 색연필 수와 나눠주고 남은 색연필 수를 출력하는
+//	프로그램을 작성하고자 한다. 아래 코드에서 빈 칸에 들어갈 내용을 작성하시오.
+// public static void main(String[] args) {
+//		int colorPen = 5 * ___ [1] ___ ;
+//		int studentCount = 27;
+// }

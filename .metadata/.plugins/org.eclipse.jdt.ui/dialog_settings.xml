@@ -94,6 +94,8 @@
 		<item key="updateSimilarElements" value="false"/>
 		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
 	</section>
 	<section name="AddSourceFolderWizard.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="225"/>

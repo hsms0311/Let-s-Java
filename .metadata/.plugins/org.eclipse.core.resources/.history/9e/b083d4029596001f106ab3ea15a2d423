@@ -1,0 +1,22 @@
+package chapter03;
+
+public class Practice {}
+
+// 01. 다음 중 자바 프로그램을 실행하는 main() 메서드의 선언부로 올바르지 않은 것은?
+// 1. public static void main(String[] args)
+// 2. public static void main(String args[])
+// 3. public static void main(String args)
+// 4. public static void main(String[] arg)
+// 
+// 정답 : 3
+// 메인 메서드의 매개변수는 반드시 배열 형태로 []를 넣어줘야 함.
+
+
+// 02. 다음 중 알맞은 변수명으로 선언한 것은?
+// 1. int for = 10;
+// 2. int var = 10;
+// 3. int 111 = 10;
+// 4. int 1var = 10;
+//
+// 정답 : 2
+// for 는 자바의 예약어. 변수명은 숫자로 시작할 수 없음.

@@ -1,0 +1,14 @@
+package chapter04;
+
+public class OpEx5_3
+{
+
+	public static void main(String[] args)
+	{
+		// 10진수. 2를 2진수로 변환.
+		System.out.println("2 : " + Integer.toBinaryString(2));
+		
+		// 10진수. 3을 2진수로 변환.
+		System.out.println("3 : " + Integer.toBinaryString(3));
+	}
+}

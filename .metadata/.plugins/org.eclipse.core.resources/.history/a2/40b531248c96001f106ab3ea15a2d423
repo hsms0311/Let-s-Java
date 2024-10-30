@@ -1,0 +1,16 @@
+package chapter03;
+
+public class StringEx
+{
+
+	public static void main(String[] args)
+	{
+		String name;
+		name = "김기동";
+		
+		String name2 = "김기동";
+		String name3 = "null";
+		Stirng name4 = " ";
+	}
+
+}

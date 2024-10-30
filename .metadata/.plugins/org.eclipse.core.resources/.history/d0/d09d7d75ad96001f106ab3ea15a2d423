@@ -1,0 +1,16 @@
+package chapter04;
+
+public class OpEx6_1
+{
+
+	public static void main(String[] args)
+	{
+		// <<연산
+		System.out.println(3 << 2);
+		System.out.println("3의 2진수 : " + Integer.toBinaryString(3));
+		System.out.println("12의 2진수 : " + Integer.toBinaryString(12));
+		
+		// 10진수. 3을 2진수로 변환.
+		System.out.println("3 : " + Integer.toBinaryString(3));
+	}
+}
