@@ -1,0 +1,12 @@
+package chapter05;
+
+public class IfEx4
+{
+
+	public static void main(String[] args)
+	{
+		int math = 80;
+		int eng = 60;
+	}
+
+}

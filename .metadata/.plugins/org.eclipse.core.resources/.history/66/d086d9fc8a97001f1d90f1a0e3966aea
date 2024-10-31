@@ -1,0 +1,14 @@
+package chapter05;
+
+public class IfEx6
+{
+
+	public static void main(String[] args)
+	{
+		int math = 80;
+		int eng = 60;
+		
+		
+	}
+
+}

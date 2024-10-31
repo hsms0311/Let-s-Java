@@ -1,0 +1,19 @@
+package chapter05;
+
+public class SwitchExStr
+{
+
+	public static void main(String[] args)
+	{
+		String addr = "서울";
+		
+		switch (addr) {
+			case "서울" :
+				System.out.println("서울입니다.");
+				
+			default :
+				System.out.println();
+		}
+	}
+
+}
