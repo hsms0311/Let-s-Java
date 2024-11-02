@@ -1,0 +1,12 @@
+package chapter06;
+
+public class ArrEx6
+{
+
+	public static void main(String[] args)
+	{
+		// 첫 번째
+		int[][] matrix = new int[3][3];
+	}
+
+}
