@@ -1,0 +1,13 @@
+package chapter06;
+
+public class ArrEx8
+{
+
+	public static void main(String[] args)
+	{
+		int[][] arrInt = new int[3][];
+		
+		
+	}
+
+}

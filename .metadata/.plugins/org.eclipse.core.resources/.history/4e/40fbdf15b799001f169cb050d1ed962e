@@ -1,0 +1,12 @@
+package chapter06;
+
+public class ArrEx9
+{
+
+	public static void main(String[] args)
+	{
+		int[] arrInt = {1, 2, 3};
+		
+	}
+
+}

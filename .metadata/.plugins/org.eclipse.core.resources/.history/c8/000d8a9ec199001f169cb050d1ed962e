@@ -1,0 +1,14 @@
+package chapter07;
+
+public class MemberMain
+{
+
+	public static void main(String[] args)
+	{
+		Member m = new Member();
+		Member m2 = new Member();
+		
+		
+	}
+
+}
