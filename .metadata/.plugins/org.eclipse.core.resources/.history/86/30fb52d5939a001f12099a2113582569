@@ -1,0 +1,34 @@
+package chapter07;
+
+public class LocalValEx
+{
+
+	public static void main(String[] args)
+	{
+		Local local = new Local();
+		
+		System.out.println(local.name); // null
+		
+		local.process();
+		System.out.println(local.name); // 김기동
+		
+		local.printAge1();
+	}
+
+}
+
+class Local {
+	String name;
+	
+	void process() {
+		name = "김기동";
+	}
+	
+	void printAge1() {
+		int age = 22; // 지역 변수
+	}
+	
+	void printAge2() {
+		int age = 33; // 지역 변수
+	}
+}

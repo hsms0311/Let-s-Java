@@ -1,13 +1,11 @@
 package chapter05;
 
-public class IfEx3
-{
+public class IfEx3 {
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		int score = 80;
 		String grade = "";
-	
+
 		System.out.println("학점 보기");
 
 		if (score >= 95) {

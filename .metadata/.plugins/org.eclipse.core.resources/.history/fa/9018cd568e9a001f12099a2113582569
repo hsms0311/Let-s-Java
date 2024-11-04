@@ -1,0 +1,12 @@
+package chapter07;
+
+public class CarMain
+{
+
+	public static void main(String[] args)
+	{
+		Car tico = new Car();
+		Car pride = new Car();
+	}
+
+}

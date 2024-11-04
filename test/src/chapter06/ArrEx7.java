@@ -1,14 +1,12 @@
 package chapter06;
 
-public class ArrEx7
-{
+public class ArrEx7 {
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		int[][][] arrInt = new int[3][3][3];
-		
+
 		int value = 0;
-		
+
 		// 값 대입
 		for (int i=0; i<=2; i++) {
 			for (int j=0; j<=2; j++) {
@@ -17,7 +15,7 @@ public class ArrEx7
 				}
 			}
 		}
-		
+
 		// 값 출력
 		for (int i=0; i<=2; i++) {
 			for (int j=0; j<=2; j++) {

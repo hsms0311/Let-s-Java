@@ -1,0 +1,21 @@
+package chapter07;
+
+public class LocalValEx
+{
+
+	public static void main(String[] args)
+	{
+		Local local = new Local();
+		
+		
+	}
+
+}
+
+class Local {
+	String name;
+	
+	void process() {
+		name = "김기동";
+	}
+}
