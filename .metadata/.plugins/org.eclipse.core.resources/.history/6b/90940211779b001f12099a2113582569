@@ -1,0 +1,11 @@
+package chapter07;
+
+public class ReturnEx {
+
+	public static void main(String[] args) {
+		Return Obj = new Return();
+		
+		
+	}
+
+}
