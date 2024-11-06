@@ -1,0 +1,18 @@
+package chapter07;
+
+public class Car2 {
+	// 필드
+	String color;
+	String company;
+	String type;
+	
+	Car2() {
+		this("white", "기아", "경형");
+	}
+	
+	Car2(String color, String company, String type) {
+		this.color = color;
+		this.company = company;
+		this.type = type;
+	}
+}

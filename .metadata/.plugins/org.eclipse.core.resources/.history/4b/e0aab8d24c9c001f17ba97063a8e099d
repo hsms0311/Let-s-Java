@@ -1,0 +1,12 @@
+package chapter07;
+
+public class Car2Main {
+
+	public static void main(String[] args) {
+		Car2 c1 = new Car2();
+		Car2 c2 = new Car2("중형");
+		Car2 c3 = new Car2("현대", "대형");
+		Car2 c4 = new Car2("black", "기아", "화물차");
+	}
+
+}

@@ -1,0 +1,8 @@
+package chapter07;
+
+public class Car2 {
+	// 필드
+	String color;
+	String company;
+	String type;
+}
