@@ -29,4 +29,6 @@
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="com.library.util.DBUtil"/>
+    <fullyQualifiedTypeName name="chapter07.test.TestPackage"/>
+    <fullyQualifiedTypeName name="test2.Member"/>
 </qualifiedTypeNameHistroy>
