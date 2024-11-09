@@ -108,7 +108,13 @@ public class zPractice {}
 //	}
 //
 //	정답 :
-//	
+//	private static Excercise instance = new Excercise();
+//	public static Excercise getInstance() {
+//		return instance;
+//	}
+//	private Excercise() {
+//
+//	}
 
 
 //	10. 클래스 내부에서 자신의 주소를 참조하는 예약어는 ____이다.
@@ -117,9 +123,56 @@ public class zPractice {}
 //	this 는 클래스 내부에서 현재 객체를 참조할 때 사용하는 예약어.
 
 
-//	11. 다음과 같이 정의된 클래스를 작성하고, 
-//	객체를 생성해 메서드를 호출하시오.
+//	11. 다음과 같이 정의된 클래스를 작성하고, 객체를 생성해
+//	메서드를 호출하시오.
+//	클래스명 : Math
+//	메서드명 : max
+//		기능 : 매개변수로 입력 받은 배열 값 중 최대값을 리턴
+//		매개변수 : 정수타입 배열
+//		리턴값 : 정수
+//	메서드면 : min
+//		기능 : 매개변수로 입력 받은 배열 값 중 최소값을 리턴
+//		매개변수 : 정수타입 배열
+//		리턴값 : 정수
+//
+//	public static void main(String[] args) {
+//		int[] arr = {9, 5, 24, 13, 3, 21};
+//		
+//		Math m = new Math();
+//		int max = m.max(arr);
+//		int min = m.min(arr);
+//		
+//		System.out.println("최대값 : " + max);
+//		System.out.println("최소값 : " + min);
+//	}
 //	
+//	class Math {
+//		// 코드 작성
+//	}
+//	[실행 결과]
+//	최대값 : 24
+//	최소값 : 3
+//
+//	정답 : 
+//	public int max(int[] max) {
+//		int temp = 0;
+//		for (int i=0; i<arr.length; i++) {
+//			if (arr[i]>temp) {
+//				temp = arr[i];
+//			}
+//		}
+//		return temp;
+//	}
+//	
+//	public int min(int[] min) {
+//		int temp = arr[0];
+//		for (int i=0; i<arr.length; i++) {
+//			if (arr[i]<temp) {
+//				temp = arr[i];
+//			}
+//		}
+//		return temp;
+//	}
 
 
 //	12. 접근 제하자에 대한 설명으로 올바르지 않은 것은?
