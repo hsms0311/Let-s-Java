@@ -31,4 +31,6 @@
     <fullyQualifiedTypeName name="com.library.util.DBUtil"/>
     <fullyQualifiedTypeName name="chapter07.test.TestPackage"/>
     <fullyQualifiedTypeName name="test2.Member"/>
+    <fullyQualifiedTypeName name="chapter08.poly.Nvidia"/>
+    <fullyQualifiedTypeName name="chapter08.poly.GraphicCard"/>
 </qualifiedTypeNameHistroy>
