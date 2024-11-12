@@ -1,9 +1,0 @@
-package chapter07;
-
-public class Overloading {
-
-	public static void main(String[] args) {
-		Operator op = new operator();
-	}
-
-}

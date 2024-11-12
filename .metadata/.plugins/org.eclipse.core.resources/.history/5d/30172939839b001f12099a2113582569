@@ -1,9 +1,0 @@
-package chapter07;
-
-public class MethodEx {
-
-	public static void main(String[] args) {
-		
-	}
-
-}
