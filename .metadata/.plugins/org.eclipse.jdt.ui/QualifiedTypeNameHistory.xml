@@ -32,6 +32,12 @@
     <fullyQualifiedTypeName name="test2.Member"/>
     <fullyQualifiedTypeName name="chapter08.poly.Nvidia"/>
     <fullyQualifiedTypeName name="chapter08.poly.GraphicCard"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="chapter09.GraphicCard"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="chapter09.MyInterface1"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="chapter09.UserAnnot"/>
+    <fullyQualifiedTypeName name="chapter09.UserClass"/>
 </qualifiedTypeNameHistroy>
