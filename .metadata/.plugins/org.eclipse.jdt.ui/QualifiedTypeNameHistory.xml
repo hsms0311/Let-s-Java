@@ -33,11 +33,17 @@
     <fullyQualifiedTypeName name="chapter08.poly.Nvidia"/>
     <fullyQualifiedTypeName name="chapter08.poly.GraphicCard"/>
     <fullyQualifiedTypeName name="chapter09.GraphicCard"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="chapter09.MyInterface1"/>
     <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
     <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
     <fullyQualifiedTypeName name="chapter09.UserAnnot"/>
     <fullyQualifiedTypeName name="chapter09.UserClass"/>
+    <fullyQualifiedTypeName name="chapter10.LocalInnerEx"/>
+    <fullyQualifiedTypeName name="chapter10.A.B"/>
+    <fullyQualifiedTypeName name="chapter10.A.C"/>
+    <fullyQualifiedTypeName name="chapter10.interfaceP.Outer.InterfaceEx"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="chapter10.interfaceP.InterfaceExImple1"/>
+    <fullyQualifiedTypeName name="chapter10.interfaceP.InterfaceExImple2"/>
 </qualifiedTypeNameHistroy>
