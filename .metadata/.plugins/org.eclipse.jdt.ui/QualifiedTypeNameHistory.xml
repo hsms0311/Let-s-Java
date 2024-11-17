@@ -40,11 +40,13 @@
     <fullyQualifiedTypeName name="chapter10.A.B"/>
     <fullyQualifiedTypeName name="chapter10.A.C"/>
     <fullyQualifiedTypeName name="chapter10.interfaceP.Outer.InterfaceEx"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="chapter10.interfaceP.InterfaceExImple1"/>
     <fullyQualifiedTypeName name="chapter10.interfaceP.InterfaceExImple2"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="chapter11.LoginException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="chapter12.ObjOverride"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
