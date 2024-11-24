@@ -14,8 +14,8 @@ public class HashSetEx2 {
 		set.add(new String("abc"));
 		
 		// Member 객체 두 개 추가 (사용자 정의 클래스)
-		set.add(new Member("김기동 ", 40));
-		set.add(new Member("김기동 ", 40));
+		set.add(new Member1("김기동 ", 40));
+		set.add(new Member1("김기동 ", 40));
 		
 		System.out.println(set);
 	}

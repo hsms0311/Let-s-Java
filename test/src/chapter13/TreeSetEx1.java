@@ -3,7 +3,7 @@ package chapter13;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class TreeSetEx {
+public class TreeSetEx1 {
 
 	public static void main(String[] args) {
 		SortedSet set = new TreeSet();
