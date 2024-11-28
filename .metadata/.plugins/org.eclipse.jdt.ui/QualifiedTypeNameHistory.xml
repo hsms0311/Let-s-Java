@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="com.library.util.DBUtil"/>
-    <fullyQualifiedTypeName name="chapter07.test.TestPackage"/>
-    <fullyQualifiedTypeName name="test2.Member"/>
-    <fullyQualifiedTypeName name="chapter08.poly.Nvidia"/>
-    <fullyQualifiedTypeName name="chapter08.poly.GraphicCard"/>
     <fullyQualifiedTypeName name="chapter09.GraphicCard"/>
     <fullyQualifiedTypeName name="chapter09.MyInterface1"/>
     <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
@@ -21,16 +14,13 @@
     <fullyQualifiedTypeName name="chapter10.interfaceP.InterfaceExImple1"/>
     <fullyQualifiedTypeName name="chapter10.interfaceP.InterfaceExImple2"/>
     <fullyQualifiedTypeName name="chapter11.LoginException"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="chapter12.ObjOverride"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
     <fullyQualifiedTypeName name="java.text.ParseException"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
@@ -40,7 +30,6 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="chapter13.ArrayListCompareLinkedList"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
@@ -51,7 +40,6 @@
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="chapter14.GenericEx2"/>
     <fullyQualifiedTypeName name="chapter14.Generic"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -60,4 +48,16 @@
     <fullyQualifiedTypeName name="java.util.function.IntBinaryOperator"/>
     <fullyQualifiedTypeName name="java.util.function.DoubleBinaryOperator"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.nio.file.attribute.BasicFileAttributes"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
