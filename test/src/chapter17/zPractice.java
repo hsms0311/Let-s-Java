@@ -39,3 +39,41 @@ public class zPractice {}
 //	실행되어 출력 순서가 뒤죽박죽으로 출력되었다.
 //	t1 스레드에 우선 순위를 높여 출력되도록 코드를 작성하시오.
 //
+//	public class ex {
+//		
+//		public static void main(String[] args) {
+//			Thread t1 = new Thread(() -> {
+//				System.out.println("t1 스레드 시작");
+//				for (int i=0; i<50; i++) {
+//					System.out.println("t1 : " + i);
+//				}
+//			});
+//			
+//			Thread t2 = new Thread(() -> {
+//				System.out.println("t2 스레드 시작");
+//				for (int i=0; i<50; i++) {
+//					System.out.println("t2 : " + i);
+//				}
+//			});
+//			
+//			// 우선 순위 지정
+//			
+//			t1.start();
+//			t2.start();
+//		}
+//		
+//	}
+//	[실행 결과]
+//	t1 스레드 시작
+//	t1 : 0
+//	t1 : 1
+//	t2 스레드 시작
+//	t1 : 2
+//	t2 : 0
+//	t3 : 3
+//	......
+//
+//	정답 : 
+//	t1.setPriority(10);
+//	t2.setPriority(10);
+//	t1 의 작업 시간을 더 많이 적용시킴.
